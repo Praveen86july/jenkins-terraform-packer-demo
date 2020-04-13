@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "==================="
+pwd
+echo "====================="
+ls -al
+echo "======================="
+apt update -y
+apt install nginx -y
+service nginx start
